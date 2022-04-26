@@ -11,6 +11,16 @@ ENV PHP_ERRORS_STDERR 1
 ENV RUN_SCRIPTS 1
 ENV REAL_IP_HEADER 1
 
+# NPM
+# install node
+RUN apk add --no-cache nodejs-current tini
+# set working directory
+WORKDIR /root/chat
+# Set tini as entrypoint
+ENTRYPOINT ["/sbin/tini", "--"]
+# copy project file
+COPY package.json .
+
 # Laravel config
 ENV APP_ENV production
 ENV APP_DEBUG false
