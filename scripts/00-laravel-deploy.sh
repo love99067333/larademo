@@ -9,7 +9,7 @@ composer install --no-dev --working-dir=/var/www/html
 
 # jetstream
 echo "install jetstream"
-apk add --update npm
+apk add --update nodejs npm
 php artisan jetstream:install livewire
 npm install && npm run dev
 
