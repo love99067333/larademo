@@ -12,11 +12,17 @@ echo "install jetstream"
 php artisan jetstream:install livewire
 npm install && npm run dev
 
+echo "Clear Cache"
+php artisan cache:clear
+
 echo "Caching config..."
 php artisan config:cache
 
 echo "Caching routes..."
 php artisan route:cache
+
+echo "Optimize"
+php artisan optimize
 
 echo "Running migrations..."
 php artisan migrate --force
