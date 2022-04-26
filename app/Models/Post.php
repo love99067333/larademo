@@ -16,4 +16,12 @@ class Post extends Model
         'content'
     ];
 
+    /**
+     * post belongs to user
+     */
+    private function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
 }

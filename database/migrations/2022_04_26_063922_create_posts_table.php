@@ -15,10 +15,11 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('user_id')->default(0)->comment('關聯使用者')->index();
             $table->text('title');
             $table->text('content');
             $table->integer('views')->default(0)->comment('觀看數');
-            $table->timestamps();            
+            $table->timestamps();
             $table->softDeletes();
         });
     }
