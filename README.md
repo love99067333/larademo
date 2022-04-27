@@ -21,9 +21,7 @@ php artisan migrate
 ```
 
 ### Demo
-```
 [點我](https://larademo.onrender.com)
-```
 
 ### 這個網站實踐、使用
 
