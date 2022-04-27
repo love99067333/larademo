@@ -446,7 +446,7 @@
                                 <ul>
                                     <li>Laravel 9 、 PHP 8 、 LNMP(部屬時使用Postgres->因為免費，本地使用Mysql) 、 Docker</li>
                                     <li>快速引用了一些套件(jetstream...)</li>
-                                    <li>依賴注入、Service&Repostory Patern(Api Docs)</li>
+                                    <li>依賴注入、Service&Repostory Patern <a href="https://www.postman.com/supermemo/workspace/79e822a8-4ce3-41be-a087-a393b106f55c/overview" target="_blank" rel="noopener noreferrer">(Api Docs)</a></li>
                                     <li>Model Relations</li>
                                     <li>部屬到雲主機 <a href="https://render.com/" target="_blank" rel="noopener noreferrer"></a></li>
                                 </ul>
