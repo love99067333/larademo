@@ -441,14 +441,14 @@
 
                         <div class="ml-12">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                嗨，歡迎來到我的Laravel Demo網站( <a href="http://https://github.com/love99067333/larademo" target="_blank" rel="noopener noreferrer">Github</a> )，過去在投遞履歷的時候常常會有面試官需要我提交作品，看看我的程式能力、寫作風格、或者只是想挖苦我(X，這個網站因此誕生了：
+                                嗨，歡迎來到我的Laravel Demo網站( <a class="underline" href="https://github.com/love99067333/larademo" target="_blank" rel="noopener noreferrer">Github</a> )，過去在投遞履歷的時候常常會有面試官需要我提交作品，看看我的程式能力、寫作風格、或者只是想挖苦我(X，這個網站因此誕生了：
                                 <h4>這個網站實踐又或者使用了：</h4>
                                 <ul>
                                     <li>Laravel 9 、 PHP 8 、 LNMP(部屬時使用Postgres->因為免費，本地使用Mysql) 、 Docker</li>
                                     <li>快速引用了一些套件(jetstream...)</li>
                                     <li>依賴注入、Service&Repostory Patern <a href="https://www.postman.com/supermemo/workspace/79e822a8-4ce3-41be-a087-a393b106f55c/overview" target="_blank" rel="noopener noreferrer">(Api Docs)</a></li>
                                     <li>Model Relations</li>
-                                    <li>部屬到雲主機 <a href="https://render.com/" target="_blank" rel="noopener noreferrer"></a></li>
+                                    <li>部屬到雲主機 <a class="underline" href="https://render.com/" target="_blank" rel="noopener noreferrer">Render</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -464,9 +464,9 @@
                         <div class="ml-12">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                 <ul>
-                                    <li><a href="https://github.com/love99067333" target="_blank" rel="noopener noreferrer">Github</a></li>
-                                    <li><a href="https://ryanweb.herokuapp.com/" target="_blank" rel="noopener noreferrer">個人網站</a></li>
-                                    <li><a href="https://ryantechweb.blogspot.com/" target="_blank" rel="noopener noreferrer">部落格</a></li>
+                                    <li><a class="underline" href="https://github.com/love99067333" target="_blank" rel="noopener noreferrer">Github</a></li>
+                                    <li><a class="underline" href="https://ryanweb.herokuapp.com/" target="_blank" rel="noopener noreferrer">個人網站</a></li>
+                                    <li><a class="underline" href="https://ryantechweb.blogspot.com/" target="_blank" rel="noopener noreferrer">部落格</a></li>
                                 </ul>
                             </div>
                         </div>
