@@ -21,7 +21,7 @@ php artisan migrate
 ```
 
 ### Demo
-[點我](https://larademo.onrender.com)
+[點我(免費雲端主機需等待時間)](https://larademo.onrender.com)
 
 ### 這個網站實踐、使用
 
