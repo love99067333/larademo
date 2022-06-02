@@ -31,3 +31,8 @@ php artisan migrate
 - Model Relations
 - 部屬到雲主機 [(Render)](https://render.com/)
 - Github Flow
+
+### 此分支說明
+
+- 保證main主分支乾淨，把需要deploy的設定寫在此分支
+- 基本上只會有main的檔案merge進此分支，此分支不會回到main
